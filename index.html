@@ -10,9 +10,7 @@
     <style type="text/css">
     body {
         overflow-x: hidden;
-        background-image: url("http://1.bp.blogspot.com/-aUTT9h8us9o/VeNaVDNzWgI/AAAAAAAADr8/XYeiD3XcLVA/s1600/MacBook_Pro_uhd.jpg");
     }
-    
     /*.clearfix::after {
         content: "";
         clear: both;
@@ -41,57 +39,90 @@
     
     .header {
         margin-top: 2rem;
+        cursor: pointer;
+    }
+    
+    .poster {
+        background-image: url("http://1.bp.blogspot.com/-aUTT9h8us9o/VeNaVDNzWgI/AAAAAAAADr8/XYeiD3XcLVA/s1600/MacBook_Pro_uhd.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
     }
     
     .search {
         color: #FFF;
     }
     
-    .centertext{
-        margin-top:18rem;
+    .centertext {
+        margin-top: 18rem;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 20px;
+    }
+    
+    .centertext p:nth-child(3) {
+        font-size: 5rem;
+    }
+    .middle-poster{
+    	margin-top: 8rem;
+    	background-size: cover;
+    	height: auto;
+    }
+    .middle-text{
+    	margin-top: 6rem;
+    	letter-spacing: 0.02em;
 
     }
-    .centertext p:nth-child(3){
-    	font-size: 5rem;
+    .middle-text p {
+        font-size: 15px;
     }
     </style>
 </head>
 
 <body class="clearfix">
-    <div class="header">
-        <!-- <img src="http://picview.info/download/20151021/keyboard-keys-buttons-black-1280x960.jpg"> -->
-        <!-- <img src="http://1.bp.blogspot.com/-aUTT9h8us9o/VeNaVDNzWgI/AAAAAAAADr8/XYeiD3XcLVA/s1600/MacBook_Pro_uhd.jpg"> -->
-        <!-- 
+    <div class="poster clearfix">
+        <div>
+            <!-- <img src="http://picview.info/download/20151021/keyboard-keys-buttons-black-1280x960.jpg"> -->
+            <!-- <img src="http://1.bp.blogspot.com/-aUTT9h8us9o/VeNaVDNzWgI/AAAAAAAADr8/XYeiD3XcLVA/s1600/MacBook_Pro_uhd.jpg"> -->
+            <!-- 
 		<img src="http://desenchufados.net/wp-content/uploads/2008/10/teclado.jpg">
 		<img src="http://desenchufados.net/wp-content/uploads/2008/10/teclado.jpg">
 		<img src="https://images7.alphacoders.com/404/thumb-1920-404212.jpg">
 		<img src="https://4.bp.blogspot.com/-_MW_-tH4mhk/VFcU4ryhisI/AAAAAAABUQc/t12hnQRNM6Y/s0/MacBook%2BApple%2BComputer%2BUHD.jpg"> -->
-        <div class="col-md-12 header">
-            <div class="col-md-2">
-                <div class="title">
-                    VATTARIC
+            <div class="col-md-12 header">
+                <div class="col-md-2">
+                    <div class="title">
+                        VATTARIC
+                    </div>
+                </div>
+                <div class="col-md-7 col-md-push-3">
+                    <span class="nav">home</span>
+                    <span class="nav">pages</span>
+                    <span class="nav">elements</span>
+                    <span class="nav">shop</span>
+                    <span class="nav">blog</span>
+                    <span class="nav">card</span>
+                    <span class="search glyphicon glyphicon-search"></span>
                 </div>
             </div>
-            <div class="col-md-7 col-md-push-3">
-                <span class="nav">home</span>
-                <span class="nav">pages</span>
-                <span class="nav">elements</span>
-                <span class="nav">shop</span>
-                <span class="nav">blog</span>
-                <span class="nav">card</span>
-                <span class="search glyphicon glyphicon-search"></span>
-            </div>
+        </div>
+        <div class="centertext ">
+            <p> simple & creative</p>
+            <br>
+            <p>we are wiloke</p>
+            <br>
+            <p>responsive multipurpose template</p>
         </div>
     </div>
-    <div class="centertext">
-        <p> simple & creative</p>
-        <br>
-        <p>we are wiloke</p>
-        <br>
-        <p>responsive multipurpose template</p>
+   <div class="middle col-md-12"> 
+   <div class="middle-poster col-md-6">
+   <img src="https://images7.alphacoders.com/404/thumb-1920-404212.jpg">
     </div>
+    <div class="col-md-6 middle-text">	<h3>WE ARE WILOKE</h3>
+    	<br>
+    	<p>Vivamus congue vel tellus id lobortis. Donec a magna mollis, finibus felis ut, aliquet ligula. Donec nec mattis erat, sit amet condimentum mi. In id turpis sit amet leo egestas sagittis ac sagittis lectus. Curabitur dignissim consequat nisi, non iaculis neque auctor a. Proin faucibus viverra nibh, eu suscipit diam suscipit ac.</p>
+    </div></div>
+
+    <div>5<hr>4<hr>3<hr>2<hr>1<hr></div>
 </body>
